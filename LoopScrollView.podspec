@@ -12,8 +12,10 @@ this is loop scrollView
   s.license      = "MIT"
   s.author       = { "dengtao" => "1083683360@qq.com" }
   s.ios.deployment_target = '8.0'
+
   s.source       = { :git => "https://github.com/TonnyTeng/LoopScrollView.git", :tag => “0.0.1” }
-  s.source_files  = "DTLoopScrollView/DTLoopScrollView/LoopScrollView/*.{h,m}"
+  s.source_files  = "LoopScrollView/*.{h,m}"
+
   s.framework  = “UIKit”
   s.requires_arc = true
 
