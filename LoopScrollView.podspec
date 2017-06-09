@@ -26,9 +26,6 @@ this is loop scrollView
 
   s.source       = { :git => "https://github.com/TonnyTeng/LoopScrollView.git", :tag => “0.0.1” }
 
-
-
-
   s.source_files  = "LoopScrollView", "LoopScrollView/**/*.{h,m}"
 
 
