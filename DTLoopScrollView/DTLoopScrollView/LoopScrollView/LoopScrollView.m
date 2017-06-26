@@ -253,6 +253,7 @@ NSString * const kCellIdentifier = @"ReuseCellIdentifier";
     NSInteger toIndex = curIndex + 1;
     
     NSIndexPath *indexPath = nil;
+    
     if (toIndex == self.totalPageCount) {
         toIndex = self.totalPageCount * 0.5;
         
@@ -262,10 +263,13 @@ NSString * const kCellIdentifier = @"ReuseCellIdentifier";
         [self.collectionView scrollToItemAtIndexPath:indexPath
                                     atScrollPosition:UICollectionViewScrollPositionNone
                                             animated:NO];
+        
     } else {
+        
         indexPath = [NSIndexPath indexPathForItem:toIndex inSection:0];
     }
     
+  
     [self.collectionView scrollToItemAtIndexPath:indexPath
                                 atScrollPosition:UICollectionViewScrollPositionNone
                                         animated:YES];
