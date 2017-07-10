@@ -14,20 +14,15 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-
-
   s.author             = { "dengtao" => "1083683360@qq.com" }
 
 
   s.ios.deployment_target = '8.0'
 
 
-
   s.source       = { :git => "https://github.com/TonnyTeng/LoopScrollView.git", :tag => s.version}
 
-
-
-  s.source_files  = "LoopScrollView/*.{h,m}”
+  s.source_files  = “LoopScrollView”,”LoopScrollView/*.{h,m}”
 
   s.framework  = "UIKit"
   s.requires_arc = true
