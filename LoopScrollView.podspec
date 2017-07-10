@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 
 
 
-  s.source_files  = "LoopScrollView/LoopScrollView”, "LoopScrollView/LoopScrollView/*.{h,m}"
+  s.source_files  = "LoopScrollView/*.{h,m}”
 
   s.framework  = "UIKit"
   s.requires_arc = true
